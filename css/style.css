@@ -9,7 +9,7 @@ body nav.navbar {
   position: sticky;
   top:0;
   background-color: #353434e3;
-  z-index: 2;
+  z-index: 5;
 }
 
 nav div a,nav li a {
@@ -28,10 +28,37 @@ nav div a:hover, nav div a:focus,nav li a:hover, nav li a:focus {
 #particles-js{
   position:relative;
   width: 100%;
-  height: 195vh;
+  height: 100vh;
   background-color: #000000;
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   z-index: 1;
+}
+
+
+
+contenair{
+  position:relative;
+  z-index: 1;
+  width: 100%;
+}
+
+.row{
+  margin: 0;
+}
+
+.contenair div.exp{
+  background-color: red;
+  z-index: 3;
+  height: 60vh;
+  vertical-align: middle;
+}
+
+.contenair div.contact{
+  background-color: red;
+    /* background-color: blue; */
+    z-index: .;
+    height: 30vh;
+    vertical-align: middle;
 }
