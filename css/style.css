@@ -57,8 +57,18 @@ contenair{
 
 .contenair div.contact{
   background-color: red;
-    /* background-color: blue; */
-    z-index: .;
+    z-index: 3;
     height: 30vh;
     vertical-align: middle;
+}
+
+.portfolio {
+    position:relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    z-index: 1;
 }
