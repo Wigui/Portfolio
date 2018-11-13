@@ -32,19 +32,7 @@ nav div a:hover, nav div a:focus,nav li a:hover, nav li a:focus {
   z-index: 6;
 }
 
-#particles-js{
-  /* position:relative; */
-  width: 100%;
-  height:100%;
-  /* height: 100vh; */
-  background-color: #000000;
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  z-index: 1;
-}
-
-#particles-js{
+#particles-js, #particles-js2{
   /* position:relative; */
   width: 100%;
   height:100%;
@@ -66,27 +54,24 @@ nav div a:hover, nav div a:focus,nav li a:hover, nav li a:focus {
   margin: 0;
 }
 
-.contenair div.exp{
-  background-color: red;
+div.contenair div#exp{
+  background-color: #353434e3;
   z-index: 3;
-  height: 60vh;
+  height: 80vh;
   vertical-align: middle;
 }
 
-.contenair div.contact{
-  background-color: red;
-    z-index: 3;
-    height: 30vh;
-    vertical-align: middle;
+div.contenair div#contact{
+  background-color: #353434e3;
+  z-index: 3;
+  height: 40vh;
+  vertical-align: middle;
 }
 
-.portfolio, .profil{
-    position:relative;
-    width: 100%;
-    height: 100vh;
-    /* background-color: #000000; */
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    z-index: 1;
-}
+/* div.contenair div#exp div.cont{
+  background-color: #353434e3;
+} */
+
+/* div.contenair div#exp {
+  background-color: yellow;
+} */
