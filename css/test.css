@@ -25,16 +25,17 @@ nav div a:hover, nav div a:focus,nav li a:hover, nav li a:focus {
   text-decoration: none;
 }
 
-.contenair .profil{
+.contenair .profil, .contenair .contact{
   position: relative;
   z-index: 2;
 }
 
 .canvas {
   position: relative;
+  height: 100vh;
 }
 
-.canvas #particles-js{
+.canvas #particles-js,.canvas #particles-js2{
   position: absolute;
   top: 0;
   left:0;
