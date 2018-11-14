@@ -25,23 +25,34 @@ nav div a:hover, nav div a:focus,nav li a:hover, nav li a:focus {
   text-decoration: none;
 }
 
-.contenair .profil h1{
+.contenair .profil{
+  position: relative;
+  z-index: 2;
+}
+
+.canvas {
+  position: relative;
+}
+
+.canvas #particles-js{
   position: absolute;
-  top: 50px;
+  top: 0;
   left:0;
-  z-index: 6;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
 #particles-js, #particles-js2{
-  /* position:relative; */
-  width: 100%;
-  height:100%;
+  /* position:absolute; */
+  /* width: 100%;
+  height:100%; */
   /* height: 100vh; */
   background-color: #000000;
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .contenair{
@@ -55,6 +66,7 @@ nav div a:hover, nav div a:focus,nav li a:hover, nav li a:focus {
 }
 
 div.contenair div#exp{
+  position: relative;
   background-color: #353434e3;
   z-index: 3;
   height: 80vh;
@@ -62,16 +74,9 @@ div.contenair div#exp{
 }
 
 div.contenair div#contact{
+  position: relative;
   background-color: #353434e3;
   z-index: 3;
   height: 40vh;
   vertical-align: middle;
 }
-
-/* div.contenair div#exp div.cont{
-  background-color: #353434e3;
-} */
-
-/* div.contenair div#exp {
-  background-color: yellow;
-} */

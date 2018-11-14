@@ -7,6 +7,9 @@
 /* v2.0.0
 /* ----------------------------------------------- */
 
+//querySelector a mettre partout. boucle la première fonction
+
+
 var pJS = function(tag_id, params){
 
   var canvas_el = document.querySelector('#'+tag_id+' > .particles-js2-canvas-el');
