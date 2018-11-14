@@ -1,14 +1,14 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: #000000;
+  background-color: #ffffff;
   z-index: -1;
 }
 
-body nav.navbar {
+nav.navbar {
   position: sticky;
   top:0;
-  background-color: #353434e3;
+  background-color: #319ac7d3;
   z-index: 5;
 }
 
@@ -21,25 +21,34 @@ nav div a,nav li a {
 }
 
 nav div a:hover, nav div a:focus,nav li a:hover, nav li a:focus {
-  color: rgb(116, 112, 112);
+  color: rgb(0, 91, 175);
   text-decoration: none;
 }
 
-#particles-js{
-  /* position:relative; */
+.profil, .contact{
+  position: relative;
+  z-index: 2;
+}
+
+.canvas {
+  position: relative;
+  height: 100vh;
+}
+
+#particles-js, #particles-js2{
+  position: absolute;
+  top: 0;
+  left:0;
   width: 100%;
-  height:200vh;
-  /* height: 100vh; */
-  background-color: #000000;
+  height: 100%;
+  z-index: -1;
+  background-color: #ffffff;
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  z-index: 1;
 }
 
-
-
-contenair{
+.contenair{
   position:relative;
   z-index: 1;
   width: 100%;
@@ -49,27 +58,17 @@ contenair{
   margin: 0;
 }
 
-.contenair div.exp{
-  background-color: red;
+#exp,#contact{
+  position: relative;
+  background-color: #319ac7d3;
   z-index: 3;
-  height: 60vh;
   vertical-align: middle;
 }
 
-.contenair div.contact{
-  background-color: red;
-    z-index: 3;
-    height: 30vh;
-    vertical-align: middle;
+#exp{
+height: 80vh;
 }
 
-.portfolio, .profil{
-    position:relative;
-    width: 100%;
-    height: 100vh;
-    /* background-color: #000000; */
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    z-index: 1;
+#contact{
+  height: 40vh;
 }

@@ -1,14 +1,14 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: #000000;
+  background-color: #ffffff;
   z-index: -1;
 }
 
-body nav.navbar {
+nav.navbar {
   position: sticky;
   top:0;
-  background-color: #353434e3;
+  background-color: #319ac7d3;
   z-index: 5;
 }
 
@@ -21,11 +21,11 @@ nav div a,nav li a {
 }
 
 nav div a:hover, nav div a:focus,nav li a:hover, nav li a:focus {
-  color: rgb(116, 112, 112);
+  color: rgb(0, 91, 175);
   text-decoration: none;
 }
 
-.contenair .profil, .contenair .contact{
+.profil, .contact{
   position: relative;
   z-index: 2;
 }
@@ -35,25 +35,17 @@ nav div a:hover, nav div a:focus,nav li a:hover, nav li a:focus {
   height: 100vh;
 }
 
-.canvas #particles-js,.canvas #particles-js2{
+#particles-js, #particles-js2{
   position: absolute;
   top: 0;
   left:0;
   width: 100%;
   height: 100%;
   z-index: -1;
-}
-
-#particles-js, #particles-js2{
-  /* position:absolute; */
-  /* width: 100%;
-  height:100%; */
-  /* height: 100vh; */
-  background-color: #000000;
+  background-color: #ffffff;
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  /* z-index: 1; */
 }
 
 .contenair{
@@ -66,18 +58,17 @@ nav div a:hover, nav div a:focus,nav li a:hover, nav li a:focus {
   margin: 0;
 }
 
-div.contenair div#exp{
+#exp,#contact{
   position: relative;
-  background-color: #353434e3;
+  background-color: #319ac7d3;
   z-index: 3;
-  height: 80vh;
   vertical-align: middle;
 }
 
-div.contenair div#contact{
-  position: relative;
-  background-color: #353434e3;
-  z-index: 3;
+#exp{
+height: 80vh;
+}
+
+#contact{
   height: 40vh;
-  vertical-align: middle;
 }

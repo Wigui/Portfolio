@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/test.css" type="text/css">
 </head>
 <body>
 
@@ -21,29 +21,41 @@
         <ul class="nav" >
             <li class=""><a href="#">MON PROFIL</a></li>
             <li class=""><a href="#exp">EXPERIENCE</a></li>
-            <li class=""><a href="#portfolio">PORTFOLIO</a></li>
+            <li class=""><a href="#particles-js2">PORTFOLIO</a></li>
             <li class=""><a href="#contact">CONTACT</a></li>
         </ul>
     </nav>
 
-<div class="contenair" >
-    <div class="row profil" id="particles-js" >
-   
-    </div> 
+    <div class="contenair" >
 
-    <div class="row exp" id="exp">
+        <div class="canvas">
+             <div class="row profil" >
+                <div class="col-4"></div>
+                <h1 class="col-4">Test</h1>
+                <div class="col-3"></div>
+            </div>
+        <div id="particles-js"></div>
+    </div>
+    
+
+    <div class="row" id="exp">
         <div class="col-3"></div>
-        <div class="col-6 exp text-center">
+        <div class="col-6 exp text-center cont">
             <p>Ceci est une bite</p>
         </div>
         <div class="col-3"></div>
     </div>
-
-    <div class="row portfolio" id="portfolio">
-
+    
+    <div class="canvas">
+        <div class="row profil" >
+            <div class="col-4"></div>
+            <h1 class="col-4">Test</h1>
+            <div class="col-3"></div>
+        </div>
+        <div id="particles-js2"></div>
     </div>
 
-    <div class="row contact" id="contact">
+    <div class="row" id="contact">
         <div class="col-lg-3">
         </div>
         <div class="col-lg-6">
@@ -56,8 +68,11 @@
 <!-- col-xs- col-sm col-md col-lg-3 -->
 <!-- Script -->
 
-<script src="js/particles.min.js"></script>
-<script src="js/app.js"></script>
+<script src="js/particlestest.js"></script>
+<script src="js/apptest.js"></script>
+
+<script src="js/particlestest2.js"></script>
+<script src="js/apptest2.js"></script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
