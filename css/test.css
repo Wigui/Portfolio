@@ -32,7 +32,7 @@ nav div a:hover, nav div a:focus,nav li a:hover, nav li a:focus {
 
 .canvas {
   position: relative;
-  height: 100vh;
+  height: 100%;
 }
 
 #particles-js, #particles-js2{
@@ -56,6 +56,30 @@ nav div a:hover, nav div a:focus,nav li a:hover, nav li a:focus {
 
 .row{
   margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.row > [class^="col-"],
+.row > [class*=" col-"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.place{
+  height: 20vh;
+  /* background-color: blue; */
+}
+
+.place2{
+  height: 10vh;
+  /* background-color: blue; */
+}
+
+.hey {
+  /* background-color: red; */
+  
 }
 
 #exp,#contact{
