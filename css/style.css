@@ -1,9 +1,8 @@
 /* 
-
 Authore Name : Bootstrapthemes
 Authore link : http://bootstrapthemes.co
-
 */
+
 html,
 body{
     font-size:18px;
@@ -169,8 +168,9 @@ input[type=date], input[type=datetime-local], input[type=email], input[type=numb
     font-family: 'Open Sans', sans-serif;
 }
 
-
-
+#home,#home ul{
+    height: 100vh !important;
+}
 
 /*==========================================================
                     About us section style
@@ -319,7 +319,9 @@ div.panel.show {
     height: 28px;
 }
 
-
+html body #about{
+    height: 100vh /*!important*/;
+}
 
 
 /*==========================================================
