@@ -653,3 +653,11 @@ html body #about{
 .main_coppyright .socail_coppyright a:hover i {
     color: #ec4848;
 }
+
+/*======================================================================
+                    Mon Style
+========================================================================*/
+
+.modaltest{
+    margin-top: 15vh;
+}

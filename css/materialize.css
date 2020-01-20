@@ -2703,9 +2703,9 @@ ul li {
     box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-.z-depth-4, .modal {
+/* .z-depth-4, .modal {
     box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
-}
+} */
 
 .z-depth-5 {
     box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22);
@@ -5209,7 +5209,7 @@ a.waves-effect .waves-ripple {
     z-index: -1;
 }
 
-.modal {
+/* .modal {
     display: none;
     position: fixed;
     left: 0;
@@ -5253,7 +5253,7 @@ a.waves-effect .waves-ripple {
 .modal .modal-footer .btn, .modal .modal-footer .btn-large, .modal .modal-footer .btn-flat {
     float: right;
     margin: 6px 0;
-}
+}*/
 
 .lean-overlay {
     position: fixed;
@@ -5267,9 +5267,9 @@ a.waves-effect .waves-ripple {
     background: #000;
     display: none;
     will-change: opacity;
-}
+} 
 
-.modal.modal-fixed-footer {
+/*.modal.modal-fixed-footer {
     padding: 0;
     height: 70%;
 }
@@ -5296,7 +5296,7 @@ a.waves-effect .waves-ripple {
     max-height: 45%;
     border-radius: 0;
     will-change: bottom, opacity;
-}
+} */
 
 .collapsible {
     border-top: 1px solid #ddd;
