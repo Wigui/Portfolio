@@ -661,3 +661,16 @@ html body #about{
 .modaltest{
     margin-top: 15vh;
 }
+
+
+/* -------------------------------------- */
+
+ul.nav li a i.fa-linkedin{
+    color: black;
+    /* border-left: 1px solid #333; */
+}
+
+
+ul.nav li a i.fa-linkedin:hover{
+    color:#ec4848;
+}
