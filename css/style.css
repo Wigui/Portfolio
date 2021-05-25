@@ -512,7 +512,7 @@ html body #about{
 }
 
 .single_mixi_portfolio .single_portfolio_text h3{
-    text-transform: lowercase !important;
+    text-transform: capitalize !important;
     margin-bottom: 0;
     padding-top:1rem;
 }
